@@ -1,17 +1,16 @@
 <!--
-  Profile README → copy to github.com/06ketan/06ketan/README.md
+  Profile README for github.com/06ketan/06ketan — sync via NextJS-Templates/06ketan-profile.
 
-  HOW TO USE
-  1. Create a PUBLIC repo named exactly: 06ketan (matches your GitHub username).
-  2. Paste this content as README.md at the repo root (not this filename).
+  WIDGET DIAGNOSIS
+  Paste each README <img src="…"> stats/streak/views URL into a browser. If github-readme-stats
+  or streak-stats return 504/429/timeout, widgets stay blank until you fork/self-host:
+  https://github.com/anuraghazra/github-readme-stats · hits badges can be flaky.
+  Profile README display rules:
+  https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme
 
-  LOCAL MARKDOWN PREVIEW (VS Code / editors)
-  Stats, streak, profile-views, shields, and banner images load from third-party HTTPS URLs.
-  Many previews sandbox remote images or block them until you allow “insecure”/network content.
-  If widgets look empty locally, open the file on github.com after push — that is the real render.
+  LOCAL MARKDOWN PREVIEW: third-party images may block by preview security — use github.com render.
 
-  OPTIONAL: Self-host github-readme-stats if the public SVGs rate-limit.
-  OPTIONAL ASSETS: commit PNG/SVG under assets/ in that repo if you swap images below.
+  Source template in this workspace: github-profile-README.md (copy into 06ketan-profile/README.md).
 -->
 
 <!-- Hero banner (capsule-render) -->
@@ -32,6 +31,14 @@
   <a href="https://ketanchavan.substack.com"><img alt="Substack" src="https://img.shields.io/badge/Substack-newsletter-FF6719?style=flat-square&logo=substack&logoColor=white"/></a>&nbsp;
   <img alt="Profile views" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F06ketan&count_bg=%230d9488&title_bg=%23111827&icon=github.svg&icon_color=%23E7E7E7&title=views&edge_flat=false"/>
 </p>
+<p align="center">
+  <a href="https://www.npmjs.com/package/slideshot-mcp"><img alt="slideshot-mcp on npm" src="https://img.shields.io/npm/v/slideshot-mcp?label=slideshot-mcp&color=0891b2&style=flat-square&logo=npm&logoColor=white"/></a>&nbsp;
+  <a href="https://pypi.org/project/medium-ops/"><img alt="medium-ops on PyPI" src="https://img.shields.io/pypi/v/medium-ops?label=medium-ops&color=00ab6c&style=flat-square&logo=pypi&logoColor=white"/></a>&nbsp;
+  <a href="https://pypi.org/project/substack-ops/"><img alt="substack-ops on PyPI" src="https://img.shields.io/pypi/v/substack-ops?label=substack-ops&color=ff6719&style=flat-square&logo=pypi&logoColor=white"/></a>&nbsp;
+  <a href="https://docs.cursor.com/context/model-context-protocol"><img alt="Cursor MCP" src="https://img.shields.io/badge/Cursor-MCP_docs-0891b2?style=flat-square"/></a>&nbsp;
+  <a href="https://code.visualstudio.com/docs"><img alt="VS Code" src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/></a>
+</p>
+<p align="center"><sub><a href="https://registry.modelcontextprotocol.io/v0/servers?search=06ketan">MCP Registry</a> · <a href="https://glama.ai/mcp?query=06ketan">Glama</a> · <a href="https://slideshot.vercel.app/api/openapi.json">slideshot OpenAPI</a></sub></p>
 
 <h3 align="center">Featured writing</h3>
 
@@ -100,8 +107,6 @@
   <img alt="Agile" src="https://img.shields.io/badge/Agile-64748b?style=flat-square"/>
 </p>
 
-<p><sub>Badge snippets: <a href="https://github.com/alexandresanlim/Badges4-README.md-Profile">Badges4-README</a> · <a href="https://shields.io">shields.io</a></sub></p>
-
 <hr/>
 
 <table>
@@ -163,23 +168,7 @@ Substack posts, notes & **MCP** — PyPI <code>substack-ops</code>
 </tr>
 </table>
 
-<p align="center"><sub>MCP Registry · DXT · registry listings — see each repo README for install matrices.</sub></p>
-
-<hr/>
-
-<h3 align="center">MCP &amp; packages</h3>
-<p align="center"><a href="https://www.npmjs.com/package/slideshot-mcp"><img alt="slideshot-mcp on npm" src="https://img.shields.io/npm/v/slideshot-mcp?label=slideshot-mcp&color=0891b2&style=flat-square&logo=npm&logoColor=white"/></a>&nbsp;
-<a href="https://pypi.org/project/medium-ops/"><img alt="medium-ops on PyPI" src="https://img.shields.io/pypi/v/medium-ops?label=medium-ops&color=00ab6c&style=flat-square&logo=pypi&logoColor=white"/></a>&nbsp;
-<a href="https://pypi.org/project/substack-ops/"><img alt="substack-ops on PyPI" src="https://img.shields.io/pypi/v/substack-ops?label=substack-ops&color=ff6719&style=flat-square&logo=pypi&logoColor=white"/></a>
-</p>
-<p align="center"><sub><a href="https://registry.modelcontextprotocol.io/v0/servers?search=06ketan">MCP Registry</a> · <a href="https://glama.ai/mcp?query=06ketan">Glama</a> · Editors: Cursor, Claude, Continue, VS Code MCP where supported · <a href="https://slideshot.vercel.app/api/openapi.json">slideshot OpenAPI</a></sub></p>
-
-<p align="center">
-  <a href="https://docs.cursor.com/context/model-context-protocol"><img alt="Cursor MCP" src="https://img.shields.io/badge/Cursor-MCP-0891b2?style=flat-square"/></a>&nbsp;
-  <a href="https://code.visualstudio.com/docs"><img alt="VS Code" src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/></a>&nbsp;
-  <a href="https://www.npmjs.com"><img alt="npm" src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white"/></a>&nbsp;
-  <a href="https://pypi.org"><img alt="PyPI" src="https://img.shields.io/badge/PyPI-3775A9?style=flat-square&logo=pypi&logoColor=white"/></a>
-</p>
+<p align="center"><sub>DXT bundles and MCP install matrices — details in each repository README.</sub></p>
 
 <hr/>
 
