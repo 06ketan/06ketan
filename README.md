@@ -29,7 +29,7 @@
   <a href="https://ketan.chavan.in/"><img alt="Site" src="https://img.shields.io/badge/Site-ketan.chavan.in-0891b2?style=flat-square"/></a>&nbsp;
   <a href="https://ketan-chavan.medium.com"><img alt="Medium" src="https://img.shields.io/badge/Medium-@ketan--chavan-12100E?style=flat-square&logo=medium&logoColor=white"/></a>&nbsp;
   <a href="https://ketanchavan.substack.com"><img alt="Substack" src="https://img.shields.io/badge/Substack-newsletter-FF6719?style=flat-square&logo=substack&logoColor=white"/></a>&nbsp;
-  <img alt="Profile views" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F06ketan&count_bg=%230d9488&title_bg=%23111827&icon=github.svg&icon_color=%23E7E7E7&title=views&edge_flat=false"/>
+  <!-- <img alt="Profile views" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F06ketan&count_bg=%230d9488&title_bg=%23111827&icon=github.svg&icon_color=%23E7E7E7&title=views&edge_flat=false"/> -->
 </p>
 <p align="center">
   <a href="https://www.npmjs.com/package/slideshot-mcp"><img alt="slideshot-mcp on npm" src="https://img.shields.io/npm/v/slideshot-mcp?label=slideshot-mcp&color=0891b2&style=flat-square&logo=npm&logoColor=white"/></a>&nbsp;
@@ -109,13 +109,13 @@
 
 <hr/>
 
-<table>
+<!-- <table>
 <tr><td valign="top" align="center" width="50%"><h3>GitHub</h3>
 <a href="https://github.com/anuraghazra/github-readme-stats"><img height="158" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=06ketan&show_icons=true&theme=default&hide_border=true&title_color=0d9488&icon_color=0891b2&bg_color=FFFFFF&text_color=1f2937"/></a>
 </td><td valign="top" align="center" width="50%"><h3>Languages</h3>
 <a href="https://github.com/anuraghazra/github-readme-stats"><img height="158" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=06ketan&layout=compact&hide_border=true&title_color=0d9488&bg_color=FFFFFF&text_color=1f2937"/></a>
 </td></tr>
-</table>
+</table> -->
 
 <p align="center"><a href="https://github.com/anuraghazra/github-readme-streak-stats"><img width="480" alt="Streak" src="https://github-readme-streak-stats.demolab.com/?user=06ketan&hide_border=true&ring=0891b2&fire=0d9488&currStreakLabel=0d9488"/></a></p>
 
