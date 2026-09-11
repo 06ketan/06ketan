@@ -28,7 +28,7 @@
 
 🌐 **Canonical site & profile → [ketan.chavan.in](https://ketan.chavan.in)**
 
-Profiles: <https://ketan.chavan.in> · <https://github.com/06ketan> · <https://linkedin.com/in/ketan-chavan> · <https://substack.com/@ketanchavan> · <https://www.npmjs.com/~ketan-chavan> · <https://pypi.org/user/ketanchavan/> · <ketan.chavan.in@gmail.com>
+Profiles: <https://github.com/06ketan> · <https://linkedin.com/in/ketan-chavan> · <https://substack.com/@ketanchavan> · <https://www.npmjs.com/~ketan-chavan> · <https://pypi.org/user/ketanchavan/> · <ketan.chavan.in@gmail.com>
 
 <p align="center">
   <a href="https://ketan.chavan.in"><img alt="Site" src="https://img.shields.io/badge/ketan.chavan.in-0891b2?style=flat-square&logo=googlechrome&logoColor=white"/></a>&nbsp;
