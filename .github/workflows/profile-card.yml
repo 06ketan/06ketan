@@ -1,0 +1,28 @@
+name: Refresh profile card
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch dark + light cards
+        run: |
+          curl -fL "https://gh.crafter.run/06ketan?theme=dark&image=https%3A%2F%2Fketan.chavan.in%2F_next%2Fimage%3Furl%3D%2Fassets%2Fprofile%2Fketan-chavan.webp%26w%3D1080%26q%3D70" -o dark_mode.svg
+          curl -fL "https://gh.crafter.run/06ketan?theme=light&image=https%3A%2F%2Fketan.chavan.in%2F_next%2Fimage%3Furl%3D%2Fassets%2Fprofile%2Fketan-chavan.webp%26w%3D1080%26q%3D70" -o light_mode.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg
+          git diff --staged --quiet || git commit -m "chore: refresh profile card"
+          git push
