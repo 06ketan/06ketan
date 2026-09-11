@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="06ketan's GitHub profile" src="dark_mode.svg" />
+</picture>
+
 <!--
   Profile README for github.com/06ketan/06ketan — sync via NextJS-Templates/06ketan-profile.
   Facts here are byte-aligned with https://ketan.chavan.in JSON-LD + /llms.txt (source of truth:
